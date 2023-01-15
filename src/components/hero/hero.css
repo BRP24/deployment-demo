@@ -1,0 +1,55 @@
+.hero-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+}
+
+.hero-text-section > p {
+	position: relative;
+	width: 450px;
+}
+
+.hero-text-section > h1 {
+	position: relative;
+	font-size: 35px;
+	margin-bottom: 12px;
+}
+
+.hero-image-section > img {
+	position: relative;
+	right: 410px;
+	top: 55px;
+}
+
+.bgi-for-image {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	display: block;
+	background: rgb(9, 9, 121);
+	background: linear-gradient(
+		90deg,
+		rgba(9, 9, 121, 1) 49%,
+		rgba(36, 41, 42, 1) 100%
+	);
+	left: 300px;
+	top: 30px;
+	border-radius: 8px;
+}
+
+.buy-btn {
+	margin-top: 15px;
+	background: rgb(9, 9, 121);
+	background: linear-gradient(
+		90deg,
+		rgba(9, 9, 121, 1) 49%,
+		rgba(36, 41, 42, 1) 100%
+	);
+	width: 200px;
+	height: 40px;
+	border: none;
+	border-radius: 8px;
+	color: aliceblue;
+	font-size: 15px;
+}

@@ -1,0 +1,25 @@
+.navigation {
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: teal;
+	padding: 0 20px;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 1px;
+}
+
+.logo > a{
+	color: #fff;
+}
+
+.navbar-list{
+	display: flex;
+	gap: 14px;
+	align-items: center;
+}
+
+.navbar-item > a{
+	color: #fff;
+}
